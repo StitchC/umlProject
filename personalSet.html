@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<title>爱记-个人设置</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fileinput.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normal.css">
+	<link rel="stylesheet" type="text/css" href="css/personalSet.css?date=20170529-3">
+	<script type="text/javascript" src="js/require.min.js" defer async="true" data-main="js/personalSetMain.js?date=20170529-40"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="side-bar">
+			<div class="header-icon-wrap">
+				<img src="" alt="" class="header-icon-content" id="user-header">
+			</div>
+			<div class="personal-tool-list">
+				<a href="personalPage.html">返回个人主页</a>
+			</div>
+		</div>
+		<!-- 手机头部菜单栏 -->
+		<div class="mobile-header">
+			<a href="personalPage.html" id="return-btn">
+				<span class="glyphicon glyphicon-menu-left"></span> 
+				返回
+			</a>
+			<h3>个人设置</h3>
+			<div class="temp"></div>
+		</div>
+		<!-- 手机菜单栏结束 -->
+		<div class="main-content">
+			<ul class="setting-item">
+				<li class="setting-info set-head-icon">
+					<div class="setting-info-title">
+						<h6>设置头像</h6>
+					</div>
+					<div class="setting-info-content">
+						<input type="file" name="file" id="fileupload" multiple="true">
+					</div>
+					<div class="setting-info-footer">
+						<button class="btn btn-primary btn-sm" id="submit-handerimg">提交</button>
+					</div>
+				</li>
+				<li class="setting-info">
+					<div class="setting-info-title">
+						<h6>设置基本信息</h6>
+					</div>
+					<div class="setting-info-content">
+						<form id="base-info-content">
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">账号</div>
+								<input type="text" class="form-control" value="979987824" disabled="ture" id="account-info">
+							</div>
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">邮箱</div>
+								<input type="text" class="form-control" value="979987824@qq.com" id="email-info">
+							</div>
+						</form>
+					</div>
+					<div class="setting-info-footer">
+						<button class="btn btn-primary btn-sm">提交</button>
+					</div>
+				</li>
+				<li class="setting-info">
+					<div class="setting-info-title">
+						<h6>重置密码</h6>
+					</div>
+					<div class="setting-info-content">
+						<form id="reset-pwd-content">
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">旧密码</div>
+								<input type="password" class="form-control" value="crs9707528" disabled="ture" id="password-info">
+							</div>
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">新密码</div>
+								<input type="password" class="form-control">
+							</div>
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">确认密码</div>
+								<input type="password" class="form-control">
+							</div>
+						</form>
+					</div>
+					<div class="setting-info-footer">
+						<button class="btn btn-primary btn-sm">提交</button>
+					</div>
+				</li>
+				<li class="setting-info">
+					<div class="setting-info-title">
+						<h6>设置附加信息</h6>
+					</div>
+					<div class="setting-info-content">
+						<form id="reset-pwd-content">
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">手机号码</div>
+								<input type="password" class="form-control" id="phonenum-info">
+							</div>
+							<div class="input-group input-wrap">
+								<div class="input-group-addon">出生年月日</div>
+								<input type="date" class="form-control">
+							</div>
+							<div class="input-wrap">
+						      <div class="checkbox">
+						        <label>
+						          <input type="radio" name="sex" value="male"> 男
+						          <input type="radio" name="sex" value="female"> 女
+						        </label>
+						      </div>
+							</div>
+						</form>
+					</div>
+					<div class="setting-info-footer">
+						<button type="submit" class="btn btn-primary btn-sm">提交</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>

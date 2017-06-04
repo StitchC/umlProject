@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<title>爱记-个人主页</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/summernote.css">
+	<link rel="stylesheet" type="text/css" href="css/normal.css">
+	<link rel="stylesheet" type="text/css" href="css/personalPage.css?date=20170529-4">
+	<script type="text/javascript" src="js/require.min.js" defer async="true" data-main="js/personalPaegMain.js?date=20170529-40"></script>
+</head>
+<body>
+	<div id="floor">
+		<div class="modula-wrap">
+			<form id="publish-form">
+				<div class="modula-head">
+					<label for="work-title">标题</label>
+					<input type="text" name="work-title" id="user-workt-title" placeholder="标题（可不填）" title="">
+				</div>
+				<div class="modula-main-body">
+					<label for="work-content">内容</label>
+					<textarea name="work-content" id="user-work-content"></textarea>
+				</div>
+				<div class="modula-footer">
+					<button type="button" id="close" class="btn">关闭</button>
+					<button type="button" id="publish" class="btn">提交</button>
+				</div>
+			</form>
+			
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="side-bar">
+			<div class="header-icon-wrap">
+				<img src="userimage/markeruserstitch.jpg" alt="" class="header-icon-content" id="header-img">
+			</div>
+			<div class="personal-name">
+				<h4 id="user-name"></h4>
+			</div>
+			<ul class="personal-tool-list">
+				<li><a href="#">私信</a></li>
+				<li><a href="#">归档</a></li>
+				<li><a href="personalSet.html">个人设置</a></li>
+				<li><a href="index.html" id="quit-btn">退出</a></li>
+			</ul>
+			<div class="search-bar-wrap">
+				<input type="text" id="search-bar" placeholder="搜索">
+				<span class="glyphicon glyphicon-search" id="search-btn"></span>
+			</div>
+			<div class="return-homepage-wrap">
+				<a href="personalIndex.html" id="return-homepage-btn">
+					<span class="glyphicon glyphicon-share-alt"></span> 
+				</a>
+			</div>
+		</div>
+		<div class="mobile-header">
+			<div class="user-headimg-wrap">
+				<img src="userimage/markeruserstitch.jpg" alt="" id="user-headimg">
+			</div>
+			<h3 id="user-name">Stitch</h3>
+			<div class="menu-btn-wrap">
+				<span class="glyphicon glyphicon-menu-hamburger" id="menu-btn"></span>
+			</div>
+		</div>
+		<ul id="menu-list">
+			<li><a href="personalIndex.html">返回个人首页</a></li>
+			<li><a href="#">私信</a></li>
+			<li><a href="#">归档</a></li>
+			<li><a href="personalSet.html">个人设置</a></li>
+		</ul>
+		<div class="main-content">
+			<ul id="content-list">
+				<li>
+					<div class="person-daily-toolbar">
+						<span class="glyphicon glyphicon-menu-hamburger edit-list"></span>
+						<ul class="down-menu">
+							<li class="edit-btn">
+								<span class="glyphicon glyphicon-edit"></span> 
+								编辑
+							</li>
+							<li class="delete-btn">
+								<span class="glyphicon glyphicon-trash"></span> 
+								删除
+							</li>
+						</ul>
+					</div>
+					<div class="person-daily-title" title="1">
+						<a href="#">这是一篇日记标题</a>
+					</div>
+					<div class="person-daily-content">
+						<p>这是我的第一篇日志，一切就像新的开始一样，我准备好了</p>
+					</div>
+					<div class="person-daily-footer">
+						<span class="footer-time">
+							<span class="glyphicon glyphicon-time"></span> 
+							<span class="publish-time">2017-05-27</span>
+						</span>
+						<span class="footer-like">
+							<span class="glyphicon glyphicon-heart like-btn"></span>
+							<span class="like-nums">2017</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="person-daily-toolbar">
+						<span class="glyphicon glyphicon-menu-hamburger edit-list"></span>
+						<ul class="down-menu">
+							<li>
+								<span class="glyphicon glyphicon-edit"></span> 
+								编辑
+							</li>
+							<li>
+								<span class="glyphicon glyphicon-trash"></span> 
+								删除
+							</li>
+						</ul>
+					</div>
+					<div class="person-daily-title" title="2"></div>
+					<div class="person-daily-content">
+						
+						<p>
+							<img src="images/example.jpg" alt="">这是我的第一篇日志，一切就像新的开始一样，我准备好了
+						</p>
+					</div>
+					<div class="person-daily-footer">
+						<span class="footer-time">
+							<span class="glyphicon glyphicon-time"></span> 
+							<span class="publish-time">2017-05-27</span>
+						</span>
+						<span class="footer-like">
+							<span class="glyphicon glyphicon-heart like-btn"></span>
+							<span class="like-nums">2017</span>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="publish-wrap">
+		<span class="glyphicon glyphicon-pencil" id="markdown-btn"></span> 
+	</div>
+</body>
+</html>

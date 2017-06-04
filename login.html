@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<title>爱记-用户登录</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normal.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/require.min.js" defer async="true" data-main="js/loginMain.js?date=20170529-13"></script>
+</head>
+<body>
+	<div class="bg">
+		<div class="login-frame-bg">
+			<form class="login-content">
+				<h4 class="login-title">欢迎回来</h4>
+				<div class="login-input-wrap">
+					<label for="account">账号</label>
+					<input type="text" name="account" id="useraccount" placeholder="请输入账号">
+					<p id="login-hint"></p>
+				</div>
+				<div class="login-input-wrap">
+					<label for="pwd">密码</label>
+					<input type="password" name="pwd" id="userpwd" placeholder="请输入账号">
+				</div>
+				<div class="login-input-wrap">
+					<label for="vtcode">验证码</label>
+					<input type="text" name="vtcode" id="uservtcode" placeholder="请输入验证码">
+					<img src="images/vtcode.jpg" title="点击切换验证码" alt="验证码">
+				</div>
+				<div class="login-input-wrap">
+					<button type="button" id="login-btn">登录</button>
+				</div>
+				<div class="login-input-wrap link-wrap">
+					<a href="register.html">马上注册</a>
+					<span>/</span>
+					<a href="#">忘记密码</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

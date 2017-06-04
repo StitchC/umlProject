@@ -1,0 +1,121 @@
+.bg{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	margin-top: -275px;
+	background-image: url(../images/login-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-size: 14px;
+}
+.login-frame-bg{
+	position: absolute;
+	top: 50%;
+	right: 5em;
+	width: 400px;
+	height: 480px;
+	margin-top: -240px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 15px;
+}
+.login-title{
+	margin-top: 25px;
+	padding-left: 30px;
+	font-size: 30px;
+	color: #69c;
+}
+.login-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 370px;
+	height: 450px;
+	margin-top: -225px;
+	margin-left: -185px;
+	background-color: #fff;
+	border-radius: 15px;
+}
+.login-input-wrap{
+	width: 80%;
+	margin: 30px auto 0 auto;
+	word-spacing: -6px;
+}
+.login-input-wrap label{
+	width: 20%;
+	height: 38px;
+	line-height: 38px;
+	background-color: #69c;
+	color: #fff;
+	text-align: center;
+	word-spacing: 0px;
+	border-radius: 5px 0 0 5px;
+}
+.login-input-wrap input{
+	width: 79%;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 5px;
+	word-spacing: 0px;
+	border: 1px solid #69c;
+	border-radius: 0 5px 5px 0;
+}
+.login-input-wrap #uservtcode{
+	width: 40%;
+	margin-right: 3px;
+}
+.login-input-wrap img{
+	width: 39%;
+	height: 38px;
+	cursor: pointer;
+}
+#login-btn{
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	background-color: #69c;
+	color: #fff;
+	border-radius: 5px;
+}
+.link-wrap a,.link-wrap span{
+	display: inline-block;
+}
+.link-wrap a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+@media screen and (max-width: 992px){
+	.bg{
+		position: relative;
+		background-image: url(../images/side-bar-bg.jpg);
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+	}
+	.login-frame-bg{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 90%;
+		height: 480px;
+		margin-top: -240px;
+		margin-left: -45%;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 15px;
+
+	}
+	.login-content{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 90%;
+		height: 450px;
+		margin-top: -225px;
+		margin-left: -45%;
+		background-color: #fff;
+		border-radius: 15px;
+	}
+}

@@ -1,0 +1,146 @@
+html,body{
+	height: 100%;
+	background-color: #EDEDEF;
+}
+ul{
+	padding: 1px 0 0 0;
+}
+.mobile-header{
+	display: none;
+}
+.wrapper{
+	padding-top: 1px;
+	padding-left: 150px;
+}
+.side-bar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 110px;
+	height: 100%;
+	background-color: #333;
+}
+.header-icon-wrap{
+	width: 60px;
+	height: 60px;
+	margin: 30px auto 0 auto;
+}
+.header-icon-wrap img{
+	width: 100%;
+}
+.personal-tool-list{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	width: 100px;
+	height: 38px;
+	line-height: 38px;
+	margin-left: -50px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	text-align: center;
+	transition: all linear .2s;
+	color: #fff;
+	cursor: pointer;
+}
+.personal-tool-list a{
+	text-decoration: none;
+	color: #fff;
+}
+.personal-tool-list:hover{
+	background-color: #fff;
+}
+.personal-tool-list:hover a{
+	color: #000;
+}
+.setting-item .setting-info{
+	width: 450px;
+	margin-top: 30px;
+	background-color: #fff;
+}
+.setting-info{
+	padding-top: 1px;
+	padding-bottom: 20px;
+}
+.setting-info-content,.setting-info-title,.setting-info-footer{
+	width: 400px;
+	margin: 30px auto 0 auto;
+}
+.setting-info-title h6{
+	font-size: 25px;
+}
+.upload-head-icon{
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	margin: 0 auto;
+	border: 3px dashed #ccc;
+	text-align: center;
+	color: #ccc;
+
+}
+.setting-info-footer{
+	text-align: right;
+}
+.input-wrap{
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 992px){
+	.mobile-header{
+		display: block;
+	}
+	.mobile-header{
+		display: flex;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		font-size: 10px;
+		background-color: #fff;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 30;
+	}
+	.mobile-header #return-btn{
+		display: flex;
+		width: 20%;
+		height: 50px; 
+		line-height: 50px;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.5em;
+	}
+	.mobile-header h3{
+		width: 60%;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		line-height: 50px;
+		text-align: center;
+	}
+	.temp{
+		width: 20%;
+		height: 50px;
+	}
+	.temp:after{
+		content: "";
+		width: 3em;
+		height: 3em;
+	}
+	.wrapper{
+		width: 100%;
+		height: 100%;
+		padding-left: 0;
+	}
+	.main-content{
+		width: 100%;
+		height: 100%;
+		margin: 70px auto 0 auto;
+		padding-top: 1px;
+	}
+	.side-bar{
+		display: none;
+	}
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<title>爱记 - 欢迎你的加入</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normal.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="js/require.min.js?date=20170630-1" defer async="true" data-main="js/registerMain.js?date=20170531-20"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h1><a href="index.html">爱记❤</a></h1>
+		</div>
+		<div class="mainbody">
+			<form id="regist-form">
+				<div class="register-title">
+					<h4>填写注册信息</h4>
+					<span>
+						已有账号？直接<a href="login.html">登录</a>
+					</span>
+				</div>
+				<div class="input-wrap">
+					<label for="username" class="input-tag">用户名</label>
+					<input type="text" name="username" id="name" placeholder="输入用户名1-16位中英文字符">
+					<span class="input-status-hint">输入正确</span>
+				</div>
+				<div class="input-wrap">
+					<label for="account" class="input-tag">账号</label>
+					<input type="text" name="useraccount" id="account" placeholder="输入帐号8-11位英文或数字字符">
+					<span class="input-status-hint">输入正确</span>
+				</div>
+				<div class="input-wrap">
+					<label for="userpwd" class="input-tag">密码</label>
+					<input type="password" name="userpwd" id="pwd" placeholder="输入密码8-16位英文数字或特殊符号<>?/...">
+					<span class="input-status-hint">输入正确</span>
+				</div>
+				<div class="input-wrap">
+					<label class="input-tag">确认密码</label>
+					<input type="password" id="confirmpwd" placeholder="输入用户名1-16位中英文字符">
+					<span class="input-status-hint">输入正确</span>
+				</div>
+				<div class="input-wrap">
+					<label for="mailbox" class="input-tag">邮箱</label>
+					<input type="text" name="usermail" id="mail" placeholder="输人常用邮箱号码">
+					<span class="input-status-hint">输入正确</span>
+				</div>
+				<div class="input-wrap btn-wrap">
+					<button type="button" id="regist-btn">注册</button>
+				</div>
+			</form>
+		</div>
+		<div class="footer"></div>
+	</div>
+</body>
+</html>

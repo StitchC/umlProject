@@ -1,0 +1,92 @@
+body{
+	background-color: #EDEDEF;
+}
+.wrapper{
+	width: 100%;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background-color: #333;
+	font-size: 0px;
+	text-align: center;
+}
+.header h1{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	color: #fff;
+	font-size: 40px;
+}
+.header h1 a{
+	color: #fff;
+	text-decoration: none;
+}
+.mainbody form{
+	width: 90%;
+	margin: 60px auto 0 auto;
+}
+.register-title{
+	position: relative;
+	width: 75%;
+	height: 38px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+.register-title h4{
+	height: 20px;
+	line-height: 20px;
+	margin-top: -10px;
+	font-size: 25px;
+}
+.input-wrap{
+	margin-top: 15px;
+	word-spacing: -6px;
+	text-align: center;
+	font-size: 12px;
+}
+.input-wrap label{
+	width: 6em;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 10px;
+	padding-right: 10px;
+	word-spacing: 0px;
+	border-radius: 5px 0px 0px 5px;
+	background-color: #ccc;
+	font-size: 14px;
+	color: #333;
+}
+.input-wrap input{
+	width: 70%;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 5px;
+	border-radius: 0px 5px 5px 0px;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s;
+	-moz-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	font-size: 14px;
+}
+.input-wrap input:focus{
+	border: 1px solid #66CCCC;
+	box-shadow: 0 0 10px #66CCCC;
+}
+.input-wrap span{
+	display: none;
+	width: 75%;
+	margin: 0 auto;
+	padding-left: 5px;
+	text-align: right;
+}
+#regist-btn{
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: #3399CC;
+	color: #fff;
+}
