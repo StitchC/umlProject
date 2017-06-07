@@ -86,6 +86,7 @@ require(["jquery.min", "OverborwserEvent","bootstrap.min","fileinput.min","filei
             }).on("fileuploaded", function(event, data) {
 
 			       userHeadImgSrc = data.response.message;
+			       console.log(JSON.stringify(data));
 
 		    });
 

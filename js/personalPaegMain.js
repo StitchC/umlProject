@@ -389,6 +389,10 @@ require(["jquery.min", "OverborwserEvent","bootstrap.min","summernote.min","summ
 	EventUntil.addHandler(s("#quit-btn"),"click",function(event){
 		event = EventUntil.preventDefault(event);
 		window.location.replace("/umlProject/login.html");
+	});
+
+	$("#markdown-btn").click(function(){
+		$("#floor").fadeIn(300);
 	})
 
 

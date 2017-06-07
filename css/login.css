@@ -41,8 +41,10 @@
 	width: 80%;
 	margin: 30px auto 0 auto;
 	word-spacing: -6px;
+	font-size: 0;
 }
 .login-input-wrap label{
+	display: inline-block;
 	width: 20%;
 	height: 38px;
 	line-height: 38px;
@@ -51,15 +53,18 @@
 	text-align: center;
 	word-spacing: 0px;
 	border-radius: 5px 0 0 5px;
+	font-size: 14px;
 }
 .login-input-wrap input{
-	width: 79%;
+	display: inline-block;
+	width: 80%;
 	height: 38px;
 	line-height: 38px;
 	padding-left: 5px;
 	word-spacing: 0px;
 	border: 1px solid #69c;
 	border-radius: 0 5px 5px 0;
+	font-size: 14px;
 }
 .login-input-wrap #uservtcode{
 	width: 40%;
@@ -78,13 +83,16 @@
 	background-color: #69c;
 	color: #fff;
 	border-radius: 5px;
+	font-size: 14px;
 }
 .link-wrap a,.link-wrap span{
 	display: inline-block;
+	font-size: 14px;
 }
 .link-wrap a{
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
 }
 @media screen and (max-width: 992px){
 	.bg{
